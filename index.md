@@ -2,6 +2,7 @@
 layout: page
 date: 2019-01-01
 color: yellow
+fish_type: koi
 ---
 
 Hello there too. Yay.
