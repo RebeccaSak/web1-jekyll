@@ -1,7 +1,11 @@
 ---
 layout: page
 date: 2019-01-01
-color: Blue-green
+color: yellow
 ---
 
 Hello there too. Yay.
+welcome this is my hot siteeeeeee!!!!!!!! 
+
+##hey whats up im a heading
+and there are people with *ladders* walking around??
