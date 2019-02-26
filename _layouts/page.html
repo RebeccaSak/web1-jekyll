@@ -36,7 +36,7 @@
 	<hr>
 		{% for p in site.pages %}
 			{% if p.fish_type=="koi" %} 
-				<a href="{{p.permalink}}">{{p.title}}</a>
+				<a href="{{ p.url }}">{{ p.title }}</a>
 			{% endif %}
 		{% endfor %} 
 		
