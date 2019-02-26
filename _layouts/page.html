@@ -36,9 +36,9 @@
 	<hr>
 		{% for p in site.pages %}
 			{% if p.fish_type=="koi" %} 
-				<a href="{{ p.url }}">{{ p.title }}</a>
+				<a href="{{ site.baseurl }}{{ p.url}}"> {{ p.title }} </a>
 			{% endif %}
-		{% endfor %} 
+		{% endfor %}
 		
 		
         <h1>{{ page.title }}</h1>
