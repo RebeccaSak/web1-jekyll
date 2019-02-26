@@ -39,7 +39,7 @@
 		
 		our fish type: {{ page.fish_type == "koi"}}
 		
-		{if % page.fish_type %}
+		{% if page.fish_type %}
 			we've got a fish type!
 			this page has a fish type: {{ page.fish_type }} 
 		{% endif %} 
