@@ -36,6 +36,12 @@
         <h1>{{ page.title }}</h1>
 		
 		{{ content }}
+		
+		our fish type: {{ page.fish_type }}
+		
+		{if % page.fish_type %}
+			this page has a fish type: {{ page.fish_type }} 
+		{% endif %} 
 
 		<hr>
 
