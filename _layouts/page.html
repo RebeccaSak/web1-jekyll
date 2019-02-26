@@ -34,10 +34,10 @@
 		</nav>
 		
 	<hr>
-		{% for p in site.pages % }
+		{% for p in site.pages %}
 			{% if p.fish_type=="koi" %} 
 				<a href="{{p.permalink}}">{{p.title}}</a>
-			{% endif % }
+			{% endif %}
 		{% endfor %} 
 		
 		
